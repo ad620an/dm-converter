@@ -10,8 +10,11 @@ dist/
 
 # Рабочие артефакты и кэш
 scratch/
-.claude/
 *.log
+
+# Claude Code: skills версионятся в репозитории, остальное — локальное
+.claude/worktrees/
+.claude/settings.local.json
 
 # Системные файлы
 Thumbs.db
